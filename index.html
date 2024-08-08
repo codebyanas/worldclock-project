@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./styles/time-and-date.png">
+    <title>World Clock Waves</title>
+    <link rel="stylesheet" href="./styles/--.css">
+    <link rel="stylesheet" href="./styles/_.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <h3 class="h1">World Clock Waves</h3>
+        <nav>
+            <input class="input" type="text" placeholder="Search your Country">
+            <button class="clear-button">X</button>
+        </nav>
+        <div class="hamburger">
+            <div><img class="search" src="./styles/search.png" alt=""></div>
+        </div>
+    </header>
+    <div class="message"></div>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Afghanistan</h2>
+                <p class="p-time" id="AFG">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Afghanistan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Pakistan</h2>
+                <p class="p-time" id="PK">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Pakistan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">US United States</h2>
+                <p class="p-time" id="US">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/United_States"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">China</h2>
+                <p class="p-time" id="CN">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/China"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Saudi Arabia</h2>
+                <p class="p-time" id="KSA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Saudi_Arabia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Dubai</h2>
+                <p class="p-time" id="DXB">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Dubai"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Brazil</h2>
+                <p class="p-time" id="BRA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Brazil"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Russia</h2>
+                <p class="p-time" id="RUS">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Russia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Japan</h2>
+                <p class="p-time" id="JPN">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Japan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Indonesia</h2>
+                <p class="p-time" id="IDN">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Indonesia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Bangladesh</h2>
+                <p class="p-time" id="BGD">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Bangladesh"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Egypt</h2>
+                <p class="p-time" id="EGY">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Egypt"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Algeria</h2>
+                <p class="p-time" id="DZA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Algeria"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Iraq</h2>
+                <p class="p-time" id="IRQ">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Iraq"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Albania</h2>
+                <p class="p-time" id="AL">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Albania"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Algeria</h2>
+                <p class="p-time" id="DZ">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Algeria"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Argentina</h2>
+                <p class="p-time" id="AR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Argentina"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Armenia</h2>
+                <p class="p-time" id="AM">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Armenia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Australia</h2>
+                <p class="p-time" id="AU">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Australia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Austria</h2>
+                <p class="p-time" id="AT">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Austria"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Azerbaijan</h2>
+                <p class="p-time" id="AZ">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Azerbaijan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Bahrain</h2>
+                <p class="p-time" id="BH">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Bahrain"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Benin</h2>
+                <p class="p-time" id="BJ">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Benin"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Bhutan</h2>
+                <p class="p-time" id="BT">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Bhutan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Canada</h2>
+                <p class="p-time" id="CA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Canada"><button class="button">
+                        <p class="p">More about Canada</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Colombia</h2>
+                <p class="p-time" id="CO">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Colombia"><button class="button">
+                        <p class="p">More about Colombia</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Denmark</h2>
+                <p class="p-time" id="DK">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Denmark"><button class="button">
+                        <p class="p">More about Denmark</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Ethiopia</h2>
+                <p class="p-time" id="ET">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Ethiopia"><button class="button">
+                        <p class="p">More about Ethiopia</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Georgia</h2>
+                <p class="p-time" id="GE">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Georgia"><button class="button">
+                        <p class="p">More about Georgia</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Germany</h2>
+                <p class="p-time" id="DE">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Germany"><button class="button">
+                        <p class="p">More about Germany</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Greece</h2>
+                <p class="p-time" id="GR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Greece"><button class="button">
+                        <p class="p">More about Greece</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Iceland</h2>
+                <p class="p-time" id="IS">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Iceland"><button class="button">
+                        <p class="p">More about Iceland</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Ireland</h2>
+                <p class="p-time" id="IE">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Ireland"><button class="button">
+                        <p class="p">More about Ireland</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Italy</h2>
+                <p class="p-time" id="ITA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Italy"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Jamaica</h2>
+                <p class="p-time" id="JAM">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Jamaica"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Jordan</h2>
+                <p class="p-time" id="JOR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Jordan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Kazakhstan</h2>
+                <p class="p-time" id="KAZ">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Kazakhstan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Kenya</h2>
+                <p class="p-time" id="KEN">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Kenya"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Korea</h2>
+                <p class="p-time" id="KOR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Korea"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Kuwait</h2>
+                <p class="p-time" id="KWT">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Kuwait"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Liberia</h2>
+                <p class="p-time" id="LBR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Liberia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Libya</h2>
+                <p class="p-time" id="LBY">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Libya"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Malaysia</h2>
+                <p class="p-time" id="MYS">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Malaysia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Maldives</h2>
+                <p class="p-time" id="MDV">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Maldives"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Mexico</h2>
+                <p class="p-time" id="MEX">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Mexico"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Mongolia</h2>
+                <p class="p-time" id="MNG">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Mongolia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Morocco</h2>
+                <p class="p-time" id="MAR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Morocco"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Myanmar</h2>
+                <p class="p-time" id="MMR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Myanmar"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Namibia</h2>
+                <p class="p-time" id="NAM">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Namibia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Nepal</h2>
+                <p class="p-time" id="NPL">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Nepal"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Netherlands</h2>
+                <p class="p-time" id="NLD">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Netherlands"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">New Zealand</h2>
+                <p class="p-time" id="NZL">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/New_Zealand"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Nigeria</h2>
+                <p class="p-time" id="NGA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Nigeria"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Norway</h2>
+                <p class="p-time" id="NOR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Norway"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Oman</h2>
+                <p class="p-time" id="OMN">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Oman"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Palestine</h2>
+                <p class="p-time" id="PSE">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Palestine"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Philippines</h2>
+                <p class="p-time" id="PHL">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Philippines"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Poland</h2>
+                <p class="p-time" id="POL">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Poland"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Portugal</h2>
+                <p class="p-time" id="PRT">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Portugal"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Qatar</h2>
+                <p class="p-time" id="QAT">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Qatar"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Romania</h2>
+                <p class="p-time" id="ROU">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Romania"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Serbia</h2>
+                <p class="p-time" id="SRB">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Serbia"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Singapore</h2>
+                <p class="p-time" id="SGP">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Singapore"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">South Africa</h2>
+                <p class="p-time" id="ZAF">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/South_Africa"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Spain</h2>
+                <p class="p-time" id="ESP">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Spain"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Sri Lanka</h2>
+                <p class="p-time" id="LKA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Sri_Lanka"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Sudan</h2>
+                <p class="p-time" id="SDN">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Sudan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Sweden</h2>
+                <p class="p-time" id="SWE">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Sweden"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Switzerland</h2>
+                <p class="p-time" id="CHE">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Switzerland"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Syria</h2>
+                <p class="p-time" id="SYR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Syria"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Tajikistan</h2>
+                <p class="p-time" id="TJK">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Tajikistan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Tanzania</h2>
+                <p class="p-time" id="TZA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Tanzania"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Thailand</h2>
+                <p class="p-time" id="THA">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Thailand"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Turkey</h2>
+                <p class="p-time" id="TUR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Turkey"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Turkmenistan</h2>
+                <p class="p-time" id="TKM">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Turkmenistan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Ukraine</h2>
+                <p class="p-time" id="UKR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Ukraine"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">UK United Kingdom</h2>
+                <p class="p-time" id="GBR">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/United_Kingdom"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Uzbekistan</h2>
+                <p class="p-time" id="UZB">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Uzbekistan"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Vatican City</h2>
+                <p class="p-time" id="VAT">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Vatican_City"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Yemen</h2>
+                <p class="p-time" id="YEM">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Yemen"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h2 class="h2">Zimbabwe</h2>
+                <p class="p-time" id="ZWE">00:00:00</p>
+                <a href="https://en.wikipedia.org/wiki/Zimbabwe"><button class="button">
+                        <p class="p">More about this Country</p>
+                    </button></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./dist/bundle.js"></script>
+
+</html>
